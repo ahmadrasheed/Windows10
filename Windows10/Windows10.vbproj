@@ -1,0 +1,513 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{934ECBF8-827B-4C5D-916F-5D1A1C002FE1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Windows10.My.MyApplication</StartupObject>
+    <RootNamespace>Windows10</RootNamespace>
+    <AssemblyName>Windows10</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\sa\Desktop\r\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>27</ApplicationRevision>
+    <ApplicationVersion>3.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsUrl>C:\Users\sa\Documents\Windows10\frameworkforxp</BootstrapperComponentsUrl>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Windows10.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Windows10.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>A56220661A42C7C03526A91EFC4320C6436CF448</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Windows10_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>hnet.com-image.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="about.Designer.vb">
+      <DependentUpon>about.vb</DependentUpon>
+    </Compile>
+    <Compile Include="about.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlphaBlendTextBox.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="apps-3.Designer.vb">
+      <DependentUpon>apps-3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="apps-3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="apps-2.Designer.vb">
+      <DependentUpon>apps-2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="apps-2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clean-1.Designer.vb">
+      <DependentUpon>clean-1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="clean-1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clean-2.Designer.vb">
+      <DependentUpon>clean-2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="clean-2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clean-3.Designer.vb">
+      <DependentUpon>clean-3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="clean-3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clean-4.Designer.vb">
+      <DependentUpon>clean-4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="clean-4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clean-5.Designer.vb">
+      <DependentUpon>clean-5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="clean-5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="computer-properties.Designer.vb">
+      <DependentUpon>computer-properties.vb</DependentUpon>
+    </Compile>
+    <Compile Include="computer-properties.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="defragment-1.Designer.vb">
+      <DependentUpon>defragment-1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="defragment-1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="defragment-2.Designer.vb">
+      <DependentUpon>defragment-2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="defragment-2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="delete1.Designer.vb">
+      <DependentUpon>delete1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="delete1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="format-1.Designer.vb">
+      <DependentUpon>format-1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="format-1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="format-2.Designer.vb">
+      <DependentUpon>format-2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="format-2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="format-3.Designer.vb">
+      <DependentUpon>format-3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="format-3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="format-4.Designer.vb">
+      <DependentUpon>format-4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="format-4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main.Designer.vb">
+      <DependentUpon>main.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="management-1.Designer.vb">
+      <DependentUpon>management-1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="management-1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="mynetwork.Designer.vb">
+      <DependentUpon>mynetwork.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mynetwork.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="new-volume.Designer.vb">
+      <DependentUpon>new-volume.vb</DependentUpon>
+    </Compile>
+    <Compile Include="new-volume.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="new-volume1.Designer.vb">
+      <DependentUpon>new-volume1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="new-volume1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="new-volume2.Designer.vb">
+      <DependentUpon>new-volume2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="new-volume2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="new-volume3.Designer.vb">
+      <DependentUpon>new-volume3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="new-volume3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="new-volume4.Designer.vb">
+      <DependentUpon>new-volume4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="new-volume4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="new-volume5.Designer.vb">
+      <DependentUpon>new-volume5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="new-volume5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="new-volume6.Designer.vb">
+      <DependentUpon>new-volume6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="new-volume6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="partitions.Designer.vb">
+      <DependentUpon>partitions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="partitions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="recyclebin.Designer.vb">
+      <DependentUpon>recyclebin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="recyclebin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="storage-1.Designer.vb">
+      <DependentUpon>storage-1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="storage-1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="storage-2.Designer.vb">
+      <DependentUpon>storage-2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="storage-2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="test.Designer.vb">
+      <DependentUpon>test.vb</DependentUpon>
+    </Compile>
+    <Compile Include="test.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="update-1.Designer.vb">
+      <DependentUpon>update-1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="update-1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="update-2.Designer.vb">
+      <DependentUpon>update-2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="update-2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="update-3.Designer.vb">
+      <DependentUpon>update-3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="update-3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="welcome.Designer.vb">
+      <DependentUpon>welcome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="welcome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="about.resx">
+      <DependentUpon>about.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apps-3.resx">
+      <DependentUpon>apps-3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="apps-2.resx">
+      <DependentUpon>apps-2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clean-1.resx">
+      <DependentUpon>clean-1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clean-2.resx">
+      <DependentUpon>clean-2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clean-3.resx">
+      <DependentUpon>clean-3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clean-4.resx">
+      <DependentUpon>clean-4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clean-5.resx">
+      <DependentUpon>clean-5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="computer-properties.resx">
+      <DependentUpon>computer-properties.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="defragment-1.resx">
+      <DependentUpon>defragment-1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="defragment-2.resx">
+      <DependentUpon>defragment-2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="delete1.resx">
+      <DependentUpon>delete1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="format-1.resx">
+      <DependentUpon>format-1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="format-2.resx">
+      <DependentUpon>format-2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="format-3.resx">
+      <DependentUpon>format-3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="format-4.resx">
+      <DependentUpon>format-4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main.resx">
+      <DependentUpon>main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="management-1.resx">
+      <DependentUpon>management-1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>PublicVbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mynetwork.resx">
+      <DependentUpon>mynetwork.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="new-volume.resx">
+      <DependentUpon>new-volume.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="new-volume1.resx">
+      <DependentUpon>new-volume1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="new-volume2.resx">
+      <DependentUpon>new-volume2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="new-volume3.resx">
+      <DependentUpon>new-volume3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="new-volume4.resx">
+      <DependentUpon>new-volume4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="new-volume5.resx">
+      <DependentUpon>new-volume5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="new-volume6.resx">
+      <DependentUpon>new-volume6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="partitions.resx">
+      <DependentUpon>partitions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="recyclebin.resx">
+      <DependentUpon>recyclebin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="storage-1.resx">
+      <DependentUpon>storage-1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="storage-2.resx">
+      <DependentUpon>storage-2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="test.resx">
+      <DependentUpon>test.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update-1.resx">
+      <DependentUpon>update-1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update-2.resx">
+      <DependentUpon>update-2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update-3.resx">
+      <DependentUpon>update-3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="welcome.resx">
+      <DependentUpon>welcome.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="Windows10_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="hnet.com-image.ico" />
+    <None Include="Resources\word2016.png" />
+    <None Include="Resources\TXT.png" />
+    <None Include="Resources\powerpoint.png" />
+    <None Include="Resources\winRAR.png" />
+    <None Include="Resources\dvd-drive-4.png" />
+    <None Include="Resources\winzip.png" />
+    <None Include="Resources\win10background.jpg" />
+    <None Include="Resources\thiscomputer.png" />
+    <None Include="Resources\recyclebin.png" />
+    <None Include="Resources\network.png" />
+    <None Include="Resources\70.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
