@@ -99,6 +99,7 @@ Partial Class main
         Me.RenameToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator4 = New System.Windows.Forms.ToolStripSeparator()
         Me.PropertiesToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.ContextMenuStrip1.SuspendLayout()
         Me.ContextMenuStrip3.SuspendLayout()
         CType(Me.pc1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -114,7 +115,7 @@ Partial Class main
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.ContextMenuStrip = Me.ContextMenuStrip1
         Me.Label1.ForeColor = System.Drawing.Color.Transparent
-        Me.Label1.Location = New System.Drawing.Point(377, 49)
+        Me.Label1.Location = New System.Drawing.Point(965, 70)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(142, 120)
         Me.Label1.TabIndex = 0
@@ -125,30 +126,30 @@ Partial Class main
         Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.OpenToolStripMenuItem, Me.ToolStripMenuItem1, Me.ToolStripMenuItem2, Me.MapNetworkDrivesToolStripMenuItem, Me.ToolStripSeparator1, Me.FormatToolStripMenuItem, Me.CopyToolStripMenuItem, Me.PasteToolStripMenuItem, Me.ToolStripSeparator2, Me.CreateShortcutToolStripMenuItem, Me.PropertiesToolStripMenuItem})
         Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
         Me.ContextMenuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional
-        Me.ContextMenuStrip1.Size = New System.Drawing.Size(346, 340)
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(346, 358)
         '
         'OpenToolStripMenuItem
         '
         Me.OpenToolStripMenuItem.Name = "OpenToolStripMenuItem"
-        Me.OpenToolStripMenuItem.Size = New System.Drawing.Size(345, 36)
+        Me.OpenToolStripMenuItem.Size = New System.Drawing.Size(345, 38)
         Me.OpenToolStripMenuItem.Text = "Open"
         '
         'ToolStripMenuItem1
         '
         Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
-        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(345, 36)
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(345, 38)
         Me.ToolStripMenuItem1.Text = "Manage"
         '
         'ToolStripMenuItem2
         '
         Me.ToolStripMenuItem2.Name = "ToolStripMenuItem2"
-        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(345, 36)
+        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(345, 38)
         Me.ToolStripMenuItem2.Text = "Pin to Start           "
         '
         'MapNetworkDrivesToolStripMenuItem
         '
         Me.MapNetworkDrivesToolStripMenuItem.Name = "MapNetworkDrivesToolStripMenuItem"
-        Me.MapNetworkDrivesToolStripMenuItem.Size = New System.Drawing.Size(345, 36)
+        Me.MapNetworkDrivesToolStripMenuItem.Size = New System.Drawing.Size(345, 38)
         Me.MapNetworkDrivesToolStripMenuItem.Text = "Map network drives"
         '
         'ToolStripSeparator1
@@ -159,19 +160,19 @@ Partial Class main
         'FormatToolStripMenuItem
         '
         Me.FormatToolStripMenuItem.Name = "FormatToolStripMenuItem"
-        Me.FormatToolStripMenuItem.Size = New System.Drawing.Size(345, 36)
+        Me.FormatToolStripMenuItem.Size = New System.Drawing.Size(345, 38)
         Me.FormatToolStripMenuItem.Text = "Delete   "
         '
         'CopyToolStripMenuItem
         '
         Me.CopyToolStripMenuItem.Name = "CopyToolStripMenuItem"
-        Me.CopyToolStripMenuItem.Size = New System.Drawing.Size(345, 36)
+        Me.CopyToolStripMenuItem.Size = New System.Drawing.Size(345, 38)
         Me.CopyToolStripMenuItem.Text = "Rename"
         '
         'PasteToolStripMenuItem
         '
         Me.PasteToolStripMenuItem.Name = "PasteToolStripMenuItem"
-        Me.PasteToolStripMenuItem.Size = New System.Drawing.Size(345, 36)
+        Me.PasteToolStripMenuItem.Size = New System.Drawing.Size(345, 38)
         Me.PasteToolStripMenuItem.Text = "Pin To Quick Access"
         '
         'ToolStripSeparator2
@@ -182,13 +183,13 @@ Partial Class main
         'CreateShortcutToolStripMenuItem
         '
         Me.CreateShortcutToolStripMenuItem.Name = "CreateShortcutToolStripMenuItem"
-        Me.CreateShortcutToolStripMenuItem.Size = New System.Drawing.Size(345, 36)
+        Me.CreateShortcutToolStripMenuItem.Size = New System.Drawing.Size(345, 38)
         Me.CreateShortcutToolStripMenuItem.Text = "Create shortcut"
         '
         'PropertiesToolStripMenuItem
         '
         Me.PropertiesToolStripMenuItem.Name = "PropertiesToolStripMenuItem"
-        Me.PropertiesToolStripMenuItem.Size = New System.Drawing.Size(345, 36)
+        Me.PropertiesToolStripMenuItem.Size = New System.Drawing.Size(345, 38)
         Me.PropertiesToolStripMenuItem.Text = "properties                     "
         '
         'Label2
@@ -202,32 +203,35 @@ Partial Class main
         '
         'Label3
         '
+        Me.Label3.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Label3.ForeColor = System.Drawing.Color.Transparent
-        Me.Label3.Location = New System.Drawing.Point(-2, 1147)
+        Me.Label3.Location = New System.Drawing.Point(-6, 760)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(72, 92)
+        Me.Label3.Size = New System.Drawing.Size(57, 60)
         Me.Label3.TabIndex = 3
         '
         'Label4
         '
+        Me.Label4.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.ContextMenuStrip = Me.ContextMenuStrip1
         Me.Label4.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Label4.ForeColor = System.Drawing.Color.Transparent
-        Me.Label4.Location = New System.Drawing.Point(90, 1168)
+        Me.Label4.Location = New System.Drawing.Point(54, 760)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(74, 71)
+        Me.Label4.Size = New System.Drawing.Size(40, 60)
         Me.Label4.TabIndex = 4
         '
         'Button1
         '
+        Me.Button1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button1.BackColor = System.Drawing.Color.CornflowerBlue
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button1.Font = New System.Drawing.Font("Tahoma", 8.0!)
         Me.Button1.ForeColor = System.Drawing.Color.Black
-        Me.Button1.Location = New System.Drawing.Point(1724, 1022)
+        Me.Button1.Location = New System.Drawing.Point(851, 597)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(166, 67)
         Me.Button1.TabIndex = 5
@@ -239,7 +243,7 @@ Partial Class main
         Me.Label5.BackColor = System.Drawing.Color.Transparent
         Me.Label5.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Label5.ForeColor = System.Drawing.Color.Transparent
-        Me.Label5.Location = New System.Drawing.Point(407, 179)
+        Me.Label5.Location = New System.Drawing.Point(995, 200)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(197, 137)
         Me.Label5.TabIndex = 6
@@ -249,7 +253,7 @@ Partial Class main
         Me.Label6.BackColor = System.Drawing.Color.Transparent
         Me.Label6.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Label6.ForeColor = System.Drawing.Color.Transparent
-        Me.Label6.Location = New System.Drawing.Point(377, 316)
+        Me.Label6.Location = New System.Drawing.Point(965, 337)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(197, 137)
         Me.Label6.TabIndex = 7
@@ -259,153 +263,153 @@ Partial Class main
         Me.ContextMenuStrip3.ImageScalingSize = New System.Drawing.Size(32, 32)
         Me.ContextMenuStrip3.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ViewToolStripMenuItem1, Me.SortByToolStripMenuItem, Me.RefreshToolStripMenuItem, Me.PasteToolStripMenuItem1, Me.PasteShortcutToolStripMenuItem, Me.UndoDeleteToolStripMenuItem, Me.NewToolStripMenuItem})
         Me.ContextMenuStrip3.Name = "ContextMenuStrip3"
-        Me.ContextMenuStrip3.Size = New System.Drawing.Size(363, 256)
+        Me.ContextMenuStrip3.Size = New System.Drawing.Size(363, 270)
         '
         'ViewToolStripMenuItem1
         '
         Me.ViewToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LargeIconsToolStripMenuItem, Me.MediumIconsToolStripMenuItem, Me.SmallIconsToolStripMenuItem, Me.AutoArrangeIconsToolStripMenuItem, Me.AlignIconsToGirdToolStripMenuItem, Me.ShowDesktopIconsToolStripMenuItem})
         Me.ViewToolStripMenuItem1.Name = "ViewToolStripMenuItem1"
-        Me.ViewToolStripMenuItem1.Size = New System.Drawing.Size(362, 36)
+        Me.ViewToolStripMenuItem1.Size = New System.Drawing.Size(362, 38)
         Me.ViewToolStripMenuItem1.Text = "View                              "
         '
         'LargeIconsToolStripMenuItem
         '
         Me.LargeIconsToolStripMenuItem.Name = "LargeIconsToolStripMenuItem"
-        Me.LargeIconsToolStripMenuItem.Size = New System.Drawing.Size(393, 38)
+        Me.LargeIconsToolStripMenuItem.Size = New System.Drawing.Size(428, 44)
         Me.LargeIconsToolStripMenuItem.Text = "Large icons                 "
         '
         'MediumIconsToolStripMenuItem
         '
         Me.MediumIconsToolStripMenuItem.Name = "MediumIconsToolStripMenuItem"
-        Me.MediumIconsToolStripMenuItem.Size = New System.Drawing.Size(393, 38)
+        Me.MediumIconsToolStripMenuItem.Size = New System.Drawing.Size(428, 44)
         Me.MediumIconsToolStripMenuItem.Text = "Medium icons           "
         '
         'SmallIconsToolStripMenuItem
         '
         Me.SmallIconsToolStripMenuItem.Name = "SmallIconsToolStripMenuItem"
-        Me.SmallIconsToolStripMenuItem.Size = New System.Drawing.Size(393, 38)
+        Me.SmallIconsToolStripMenuItem.Size = New System.Drawing.Size(428, 44)
         Me.SmallIconsToolStripMenuItem.Text = "Small icons               "
         '
         'AutoArrangeIconsToolStripMenuItem
         '
         Me.AutoArrangeIconsToolStripMenuItem.Name = "AutoArrangeIconsToolStripMenuItem"
-        Me.AutoArrangeIconsToolStripMenuItem.Size = New System.Drawing.Size(393, 38)
+        Me.AutoArrangeIconsToolStripMenuItem.Size = New System.Drawing.Size(428, 44)
         Me.AutoArrangeIconsToolStripMenuItem.Text = "Auto arrange icons "
         '
         'AlignIconsToGirdToolStripMenuItem
         '
         Me.AlignIconsToGirdToolStripMenuItem.Name = "AlignIconsToGirdToolStripMenuItem"
-        Me.AlignIconsToGirdToolStripMenuItem.Size = New System.Drawing.Size(393, 38)
+        Me.AlignIconsToGirdToolStripMenuItem.Size = New System.Drawing.Size(428, 44)
         Me.AlignIconsToGirdToolStripMenuItem.Text = "Align icons to gird            "
         '
         'ShowDesktopIconsToolStripMenuItem
         '
         Me.ShowDesktopIconsToolStripMenuItem.Name = "ShowDesktopIconsToolStripMenuItem"
-        Me.ShowDesktopIconsToolStripMenuItem.Size = New System.Drawing.Size(393, 38)
+        Me.ShowDesktopIconsToolStripMenuItem.Size = New System.Drawing.Size(428, 44)
         Me.ShowDesktopIconsToolStripMenuItem.Text = "Show desktop icons       "
         '
         'SortByToolStripMenuItem
         '
         Me.SortByToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NameToolStripMenuItem, Me.SizeToolStripMenuItem, Me.ItemTypeToolStripMenuItem, Me.DateModifiedToolStripMenuItem})
         Me.SortByToolStripMenuItem.Name = "SortByToolStripMenuItem"
-        Me.SortByToolStripMenuItem.Size = New System.Drawing.Size(362, 36)
+        Me.SortByToolStripMenuItem.Size = New System.Drawing.Size(362, 38)
         Me.SortByToolStripMenuItem.Text = "Sort by                            "
         '
         'NameToolStripMenuItem
         '
         Me.NameToolStripMenuItem.Name = "NameToolStripMenuItem"
-        Me.NameToolStripMenuItem.Size = New System.Drawing.Size(388, 38)
+        Me.NameToolStripMenuItem.Size = New System.Drawing.Size(423, 44)
         Me.NameToolStripMenuItem.Text = "Name                              "
         '
         'SizeToolStripMenuItem
         '
         Me.SizeToolStripMenuItem.Name = "SizeToolStripMenuItem"
-        Me.SizeToolStripMenuItem.Size = New System.Drawing.Size(388, 38)
+        Me.SizeToolStripMenuItem.Size = New System.Drawing.Size(423, 44)
         Me.SizeToolStripMenuItem.Text = "Size"
         '
         'ItemTypeToolStripMenuItem
         '
         Me.ItemTypeToolStripMenuItem.Name = "ItemTypeToolStripMenuItem"
-        Me.ItemTypeToolStripMenuItem.Size = New System.Drawing.Size(388, 38)
+        Me.ItemTypeToolStripMenuItem.Size = New System.Drawing.Size(423, 44)
         Me.ItemTypeToolStripMenuItem.Text = "Item type"
         '
         'DateModifiedToolStripMenuItem
         '
         Me.DateModifiedToolStripMenuItem.Name = "DateModifiedToolStripMenuItem"
-        Me.DateModifiedToolStripMenuItem.Size = New System.Drawing.Size(388, 38)
+        Me.DateModifiedToolStripMenuItem.Size = New System.Drawing.Size(423, 44)
         Me.DateModifiedToolStripMenuItem.Text = "Date modified       "
         '
         'RefreshToolStripMenuItem
         '
         Me.RefreshToolStripMenuItem.Name = "RefreshToolStripMenuItem"
-        Me.RefreshToolStripMenuItem.Size = New System.Drawing.Size(362, 36)
+        Me.RefreshToolStripMenuItem.Size = New System.Drawing.Size(362, 38)
         Me.RefreshToolStripMenuItem.Text = "Refresh"
         '
         'PasteToolStripMenuItem1
         '
         Me.PasteToolStripMenuItem1.Name = "PasteToolStripMenuItem1"
-        Me.PasteToolStripMenuItem1.Size = New System.Drawing.Size(362, 36)
+        Me.PasteToolStripMenuItem1.Size = New System.Drawing.Size(362, 38)
         Me.PasteToolStripMenuItem1.Text = "Paste"
         '
         'PasteShortcutToolStripMenuItem
         '
         Me.PasteShortcutToolStripMenuItem.Name = "PasteShortcutToolStripMenuItem"
-        Me.PasteShortcutToolStripMenuItem.Size = New System.Drawing.Size(362, 36)
+        Me.PasteShortcutToolStripMenuItem.Size = New System.Drawing.Size(362, 38)
         Me.PasteShortcutToolStripMenuItem.Text = "Paste Shortcut"
         '
         'UndoDeleteToolStripMenuItem
         '
         Me.UndoDeleteToolStripMenuItem.Name = "UndoDeleteToolStripMenuItem"
-        Me.UndoDeleteToolStripMenuItem.Size = New System.Drawing.Size(362, 36)
+        Me.UndoDeleteToolStripMenuItem.Size = New System.Drawing.Size(362, 38)
         Me.UndoDeleteToolStripMenuItem.Text = "Undo delete"
         '
         'NewToolStripMenuItem
         '
         Me.NewToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FolderToolStripMenuItem, Me.ShortCutToolStripMenuItem, Me.TextDocumentToolStripMenuItem, Me.WinZippedFileملفمضغوطToolStripMenuItem, Me.WinRarFileملفمضغوطToolStripMenuItem, Me.MicrosoftWord2016ToolStripMenuItem, Me.MicrosoftPowerPointToolStripMenuItem})
         Me.NewToolStripMenuItem.Name = "NewToolStripMenuItem"
-        Me.NewToolStripMenuItem.Size = New System.Drawing.Size(362, 36)
+        Me.NewToolStripMenuItem.Size = New System.Drawing.Size(362, 38)
         Me.NewToolStripMenuItem.Text = "New                              "
         '
         'FolderToolStripMenuItem
         '
         Me.FolderToolStripMenuItem.Name = "FolderToolStripMenuItem"
-        Me.FolderToolStripMenuItem.Size = New System.Drawing.Size(419, 38)
+        Me.FolderToolStripMenuItem.Size = New System.Drawing.Size(454, 44)
         Me.FolderToolStripMenuItem.Text = "Folder                               "
         '
         'ShortCutToolStripMenuItem
         '
         Me.ShortCutToolStripMenuItem.Name = "ShortCutToolStripMenuItem"
-        Me.ShortCutToolStripMenuItem.Size = New System.Drawing.Size(419, 38)
+        Me.ShortCutToolStripMenuItem.Size = New System.Drawing.Size(454, 44)
         Me.ShortCutToolStripMenuItem.Text = "Short cut"
         '
         'TextDocumentToolStripMenuItem
         '
         Me.TextDocumentToolStripMenuItem.Name = "TextDocumentToolStripMenuItem"
-        Me.TextDocumentToolStripMenuItem.Size = New System.Drawing.Size(419, 38)
+        Me.TextDocumentToolStripMenuItem.Size = New System.Drawing.Size(454, 44)
         Me.TextDocumentToolStripMenuItem.Text = "Text Document"
         '
         'WinZippedFileملفمضغوطToolStripMenuItem
         '
         Me.WinZippedFileملفمضغوطToolStripMenuItem.Name = "WinZippedFileملفمضغوطToolStripMenuItem"
-        Me.WinZippedFileملفمضغوطToolStripMenuItem.Size = New System.Drawing.Size(419, 38)
+        Me.WinZippedFileملفمضغوطToolStripMenuItem.Size = New System.Drawing.Size(454, 44)
         Me.WinZippedFileملفمضغوطToolStripMenuItem.Text = "WinZipped File ملف مضغوط"
         '
         'WinRarFileملفمضغوطToolStripMenuItem
         '
         Me.WinRarFileملفمضغوطToolStripMenuItem.Name = "WinRarFileملفمضغوطToolStripMenuItem"
-        Me.WinRarFileملفمضغوطToolStripMenuItem.Size = New System.Drawing.Size(419, 38)
+        Me.WinRarFileملفمضغوطToolStripMenuItem.Size = New System.Drawing.Size(454, 44)
         Me.WinRarFileملفمضغوطToolStripMenuItem.Text = "WinRar file ملف مضغوط"
         '
         'MicrosoftWord2016ToolStripMenuItem
         '
         Me.MicrosoftWord2016ToolStripMenuItem.Name = "MicrosoftWord2016ToolStripMenuItem"
-        Me.MicrosoftWord2016ToolStripMenuItem.Size = New System.Drawing.Size(419, 38)
+        Me.MicrosoftWord2016ToolStripMenuItem.Size = New System.Drawing.Size(454, 44)
         Me.MicrosoftWord2016ToolStripMenuItem.Text = "Microsoft Word2016"
         '
         'MicrosoftPowerPointToolStripMenuItem
         '
         Me.MicrosoftPowerPointToolStripMenuItem.Name = "MicrosoftPowerPointToolStripMenuItem"
-        Me.MicrosoftPowerPointToolStripMenuItem.Size = New System.Drawing.Size(419, 38)
+        Me.MicrosoftPowerPointToolStripMenuItem.Size = New System.Drawing.Size(454, 44)
         Me.MicrosoftPowerPointToolStripMenuItem.Text = "Microsoft Power Point"
         '
         'pc1
@@ -461,30 +465,30 @@ Partial Class main
         Me.RecycleBinContextMenuStrip4.ImageScalingSize = New System.Drawing.Size(32, 32)
         Me.RecycleBinContextMenuStrip4.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.OpenToolStripMenuItem2, Me.EmptyRecycleBinToolStripMenuItem, Me.RenameToolStripMenuItem1, Me.PropertiesToolStripMenuItem2})
         Me.RecycleBinContextMenuStrip4.Name = "RecycleBinContextMenuStrip4"
-        Me.RecycleBinContextMenuStrip4.Size = New System.Drawing.Size(367, 192)
+        Me.RecycleBinContextMenuStrip4.Size = New System.Drawing.Size(367, 156)
         '
         'OpenToolStripMenuItem2
         '
         Me.OpenToolStripMenuItem2.Name = "OpenToolStripMenuItem2"
-        Me.OpenToolStripMenuItem2.Size = New System.Drawing.Size(366, 36)
+        Me.OpenToolStripMenuItem2.Size = New System.Drawing.Size(366, 38)
         Me.OpenToolStripMenuItem2.Text = "Open                               "
         '
         'EmptyRecycleBinToolStripMenuItem
         '
         Me.EmptyRecycleBinToolStripMenuItem.Name = "EmptyRecycleBinToolStripMenuItem"
-        Me.EmptyRecycleBinToolStripMenuItem.Size = New System.Drawing.Size(366, 36)
+        Me.EmptyRecycleBinToolStripMenuItem.Size = New System.Drawing.Size(366, 38)
         Me.EmptyRecycleBinToolStripMenuItem.Text = "Empty RecycleBin            "
         '
         'RenameToolStripMenuItem1
         '
         Me.RenameToolStripMenuItem1.Name = "RenameToolStripMenuItem1"
-        Me.RenameToolStripMenuItem1.Size = New System.Drawing.Size(366, 36)
+        Me.RenameToolStripMenuItem1.Size = New System.Drawing.Size(366, 38)
         Me.RenameToolStripMenuItem1.Text = "Rename     "
         '
         'PropertiesToolStripMenuItem2
         '
         Me.PropertiesToolStripMenuItem2.Name = "PropertiesToolStripMenuItem2"
-        Me.PropertiesToolStripMenuItem2.Size = New System.Drawing.Size(366, 36)
+        Me.PropertiesToolStripMenuItem2.Size = New System.Drawing.Size(366, 38)
         Me.PropertiesToolStripMenuItem2.Text = "Properties"
         '
         'txtboxpc2
@@ -539,24 +543,24 @@ Partial Class main
         Me.ContextMenuStrip2.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.OpenToolStripMenuItem1, Me.PinToQuickAccessToolStripMenuItem, Me.PinToStartToolStripMenuItem, Me.ToolStripSeparator3, Me.SendToToolStripMenuItem, Me.CutToolStripMenuItem, Me.CopyToolStripMenuItem1, Me.CreateShortcutToolStripMenuItem1, Me.DeleteToolStripMenuItem, Me.RenameToolStripMenuItem, Me.ToolStripSeparator4, Me.PropertiesToolStripMenuItem1})
         Me.ContextMenuStrip2.Margin = New System.Windows.Forms.Padding(10)
         Me.ContextMenuStrip2.Name = "ContextMenuStrip2"
-        Me.ContextMenuStrip2.Size = New System.Drawing.Size(430, 386)
+        Me.ContextMenuStrip2.Size = New System.Drawing.Size(430, 406)
         '
         'OpenToolStripMenuItem1
         '
         Me.OpenToolStripMenuItem1.Name = "OpenToolStripMenuItem1"
-        Me.OpenToolStripMenuItem1.Size = New System.Drawing.Size(429, 36)
+        Me.OpenToolStripMenuItem1.Size = New System.Drawing.Size(429, 38)
         Me.OpenToolStripMenuItem1.Text = "Open                                        "
         '
         'PinToQuickAccessToolStripMenuItem
         '
         Me.PinToQuickAccessToolStripMenuItem.Name = "PinToQuickAccessToolStripMenuItem"
-        Me.PinToQuickAccessToolStripMenuItem.Size = New System.Drawing.Size(429, 36)
+        Me.PinToQuickAccessToolStripMenuItem.Size = New System.Drawing.Size(429, 38)
         Me.PinToQuickAccessToolStripMenuItem.Text = "Pin to Quick access"
         '
         'PinToStartToolStripMenuItem
         '
         Me.PinToStartToolStripMenuItem.Name = "PinToStartToolStripMenuItem"
-        Me.PinToStartToolStripMenuItem.Size = New System.Drawing.Size(429, 36)
+        Me.PinToStartToolStripMenuItem.Size = New System.Drawing.Size(429, 38)
         Me.PinToStartToolStripMenuItem.Text = "Pin to Start"
         '
         'ToolStripSeparator3
@@ -568,67 +572,67 @@ Partial Class main
         '
         Me.SendToToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BluetoothToolStripMenuItem, Me.DesktopToolStripMenuItem, Me.CompressedzippedFolderToolStripMenuItem, Me.DocumentsToolStripMenuItem, Me.DVDRWToolStripMenuItem})
         Me.SendToToolStripMenuItem.Name = "SendToToolStripMenuItem"
-        Me.SendToToolStripMenuItem.Size = New System.Drawing.Size(429, 36)
+        Me.SendToToolStripMenuItem.Size = New System.Drawing.Size(429, 38)
         Me.SendToToolStripMenuItem.Text = "Send To"
         '
         'BluetoothToolStripMenuItem
         '
         Me.BluetoothToolStripMenuItem.Name = "BluetoothToolStripMenuItem"
-        Me.BluetoothToolStripMenuItem.Size = New System.Drawing.Size(430, 38)
+        Me.BluetoothToolStripMenuItem.Size = New System.Drawing.Size(465, 44)
         Me.BluetoothToolStripMenuItem.Text = "Bluetooth"
         '
         'DesktopToolStripMenuItem
         '
         Me.DesktopToolStripMenuItem.Name = "DesktopToolStripMenuItem"
-        Me.DesktopToolStripMenuItem.Size = New System.Drawing.Size(430, 38)
+        Me.DesktopToolStripMenuItem.Size = New System.Drawing.Size(465, 44)
         Me.DesktopToolStripMenuItem.Text = "Desktop                "
         '
         'CompressedzippedFolderToolStripMenuItem
         '
         Me.CompressedzippedFolderToolStripMenuItem.Name = "CompressedzippedFolderToolStripMenuItem"
-        Me.CompressedzippedFolderToolStripMenuItem.Size = New System.Drawing.Size(430, 38)
+        Me.CompressedzippedFolderToolStripMenuItem.Size = New System.Drawing.Size(465, 44)
         Me.CompressedzippedFolderToolStripMenuItem.Text = "Compressed (zipped) folder   "
         '
         'DocumentsToolStripMenuItem
         '
         Me.DocumentsToolStripMenuItem.Name = "DocumentsToolStripMenuItem"
-        Me.DocumentsToolStripMenuItem.Size = New System.Drawing.Size(430, 38)
+        Me.DocumentsToolStripMenuItem.Size = New System.Drawing.Size(465, 44)
         Me.DocumentsToolStripMenuItem.Text = "Documents     "
         '
         'DVDRWToolStripMenuItem
         '
         Me.DVDRWToolStripMenuItem.Name = "DVDRWToolStripMenuItem"
-        Me.DVDRWToolStripMenuItem.Size = New System.Drawing.Size(430, 38)
+        Me.DVDRWToolStripMenuItem.Size = New System.Drawing.Size(465, 44)
         Me.DVDRWToolStripMenuItem.Text = "DVD  (RW)"
         '
         'CutToolStripMenuItem
         '
         Me.CutToolStripMenuItem.Name = "CutToolStripMenuItem"
-        Me.CutToolStripMenuItem.Size = New System.Drawing.Size(429, 36)
+        Me.CutToolStripMenuItem.Size = New System.Drawing.Size(429, 38)
         Me.CutToolStripMenuItem.Text = "Cut"
         '
         'CopyToolStripMenuItem1
         '
         Me.CopyToolStripMenuItem1.Name = "CopyToolStripMenuItem1"
-        Me.CopyToolStripMenuItem1.Size = New System.Drawing.Size(429, 36)
+        Me.CopyToolStripMenuItem1.Size = New System.Drawing.Size(429, 38)
         Me.CopyToolStripMenuItem1.Text = "Copy"
         '
         'CreateShortcutToolStripMenuItem1
         '
         Me.CreateShortcutToolStripMenuItem1.Name = "CreateShortcutToolStripMenuItem1"
-        Me.CreateShortcutToolStripMenuItem1.Size = New System.Drawing.Size(429, 36)
+        Me.CreateShortcutToolStripMenuItem1.Size = New System.Drawing.Size(429, 38)
         Me.CreateShortcutToolStripMenuItem1.Text = "Create Shortcut"
         '
         'DeleteToolStripMenuItem
         '
         Me.DeleteToolStripMenuItem.Name = "DeleteToolStripMenuItem"
-        Me.DeleteToolStripMenuItem.Size = New System.Drawing.Size(429, 36)
+        Me.DeleteToolStripMenuItem.Size = New System.Drawing.Size(429, 38)
         Me.DeleteToolStripMenuItem.Text = "Delete"
         '
         'RenameToolStripMenuItem
         '
         Me.RenameToolStripMenuItem.Name = "RenameToolStripMenuItem"
-        Me.RenameToolStripMenuItem.Size = New System.Drawing.Size(429, 36)
+        Me.RenameToolStripMenuItem.Size = New System.Drawing.Size(429, 38)
         Me.RenameToolStripMenuItem.Text = "Rename                            "
         '
         'ToolStripSeparator4
@@ -640,17 +644,28 @@ Partial Class main
         'PropertiesToolStripMenuItem1
         '
         Me.PropertiesToolStripMenuItem1.Name = "PropertiesToolStripMenuItem1"
-        Me.PropertiesToolStripMenuItem1.Size = New System.Drawing.Size(429, 36)
+        Me.PropertiesToolStripMenuItem1.Size = New System.Drawing.Size(429, 38)
         Me.PropertiesToolStripMenuItem1.Text = "Properties"
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(992, 480)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(0, 0)
+        Me.Button2.TabIndex = 17
+        Me.Button2.Text = "Button2"
+        Me.Button2.UseVisualStyleBackColor = True
         '
         'main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoSize = True
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1974, 1229)
+        Me.ClientSize = New System.Drawing.Size(1174, 829)
         Me.ContextMenuStrip = Me.ContextMenuStrip3
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.txtboxpc3)
         Me.Controls.Add(Me.pc3)
         Me.Controls.Add(Me.txtboxpc2)
@@ -667,9 +682,9 @@ Partial Class main
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.MaximizeBox = False
-        Me.MaximumSize = New System.Drawing.Size(2000, 1300)
+        Me.MaximumSize = New System.Drawing.Size(1200, 900)
         Me.MinimizeBox = False
-        Me.MinimumSize = New System.Drawing.Size(2000, 1300)
+        Me.MinimumSize = New System.Drawing.Size(1200, 900)
         Me.Name = "main"
         Me.Text = "Form1"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
@@ -760,4 +775,5 @@ Partial Class main
     Friend WithEvents EmptyRecycleBinToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents RenameToolStripMenuItem1 As ToolStripMenuItem
     Friend WithEvents PropertiesToolStripMenuItem2 As ToolStripMenuItem
+    Friend WithEvents Button2 As Button
 End Class

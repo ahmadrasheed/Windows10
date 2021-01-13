@@ -468,6 +468,10 @@
     End Sub
 
     Private Sub main_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        'Me.WindowState = FormWindowState.Maximized
+        Me.Height = Screen.PrimaryScreen.WorkingArea.Height
+        Me.Width = Screen.PrimaryScreen.WorkingArea.Width
+
         Dim pic As Control
         For Each pic In Me.Controls
             If (pic.GetType() Is GetType(PictureBox)) Then

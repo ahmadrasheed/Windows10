@@ -31,18 +31,19 @@ Partial Class apps_3
         '
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.ForeColor = System.Drawing.Color.Transparent
-        Me.Label2.Location = New System.Drawing.Point(1320, 424)
+        Me.Label2.Location = New System.Drawing.Point(758, 273)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(228, 72)
+        Me.Label2.Size = New System.Drawing.Size(177, 72)
         Me.Label2.TabIndex = 3
         '
         'Button1
         '
+        Me.Button1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button1.BackColor = System.Drawing.Color.DodgerBlue
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button1.Font = New System.Drawing.Font("Tahoma", 8.0!)
         Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(1517, 103)
+        Me.Button1.Location = New System.Drawing.Point(802, 54)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(360, 106)
         Me.Button1.TabIndex = 5
@@ -55,13 +56,13 @@ Partial Class apps_3
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1974, 1229)
+        Me.ClientSize = New System.Drawing.Size(1174, 829)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label2)
         Me.MaximizeBox = False
-        Me.MaximumSize = New System.Drawing.Size(2000, 1300)
+        Me.MaximumSize = New System.Drawing.Size(1200, 900)
         Me.MinimizeBox = False
-        Me.MinimumSize = New System.Drawing.Size(2000, 1300)
+        Me.MinimumSize = New System.Drawing.Size(1200, 900)
         Me.Name = "apps_3"
         Me.Text = "apps_3"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized

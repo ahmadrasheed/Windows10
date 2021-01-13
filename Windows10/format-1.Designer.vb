@@ -46,24 +46,24 @@ Partial Class format_1
         Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.OpenToolStripMenuItem, Me.OpenInNewWindowToolStripMenuItem, Me.PintToStartToolStripMenuItem, Me.ToolStripSeparator2, Me.CopyToolStripMenuItem, Me.RenameToolStripMenuItem, Me.FormatToolStripMenuItem, Me.ToolStripSeparator1, Me.PropertiesToolStripMenuItem})
         Me.ContextMenuStrip1.Margin = New System.Windows.Forms.Padding(10, 0, 0, 0)
         Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
-        Me.ContextMenuStrip1.Size = New System.Drawing.Size(387, 268)
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(387, 282)
         '
         'OpenToolStripMenuItem
         '
         Me.OpenToolStripMenuItem.Name = "OpenToolStripMenuItem"
-        Me.OpenToolStripMenuItem.Size = New System.Drawing.Size(386, 36)
+        Me.OpenToolStripMenuItem.Size = New System.Drawing.Size(386, 38)
         Me.OpenToolStripMenuItem.Text = "Open"
         '
         'OpenInNewWindowToolStripMenuItem
         '
         Me.OpenInNewWindowToolStripMenuItem.Name = "OpenInNewWindowToolStripMenuItem"
-        Me.OpenInNewWindowToolStripMenuItem.Size = New System.Drawing.Size(386, 36)
+        Me.OpenInNewWindowToolStripMenuItem.Size = New System.Drawing.Size(386, 38)
         Me.OpenInNewWindowToolStripMenuItem.Text = "Open in new Window"
         '
         'PintToStartToolStripMenuItem
         '
         Me.PintToStartToolStripMenuItem.Name = "PintToStartToolStripMenuItem"
-        Me.PintToStartToolStripMenuItem.Size = New System.Drawing.Size(386, 36)
+        Me.PintToStartToolStripMenuItem.Size = New System.Drawing.Size(386, 38)
         Me.PintToStartToolStripMenuItem.Text = "Pint To start"
         '
         'ToolStripSeparator2
@@ -74,19 +74,19 @@ Partial Class format_1
         'CopyToolStripMenuItem
         '
         Me.CopyToolStripMenuItem.Name = "CopyToolStripMenuItem"
-        Me.CopyToolStripMenuItem.Size = New System.Drawing.Size(386, 36)
+        Me.CopyToolStripMenuItem.Size = New System.Drawing.Size(386, 38)
         Me.CopyToolStripMenuItem.Text = "Copy"
         '
         'RenameToolStripMenuItem
         '
         Me.RenameToolStripMenuItem.Name = "RenameToolStripMenuItem"
-        Me.RenameToolStripMenuItem.Size = New System.Drawing.Size(386, 36)
+        Me.RenameToolStripMenuItem.Size = New System.Drawing.Size(386, 38)
         Me.RenameToolStripMenuItem.Text = "Rename"
         '
         'FormatToolStripMenuItem
         '
         Me.FormatToolStripMenuItem.Name = "FormatToolStripMenuItem"
-        Me.FormatToolStripMenuItem.Size = New System.Drawing.Size(386, 36)
+        Me.FormatToolStripMenuItem.Size = New System.Drawing.Size(386, 38)
         Me.FormatToolStripMenuItem.Text = "Format"
         '
         'ToolStripSeparator1
@@ -97,7 +97,7 @@ Partial Class format_1
         'PropertiesToolStripMenuItem
         '
         Me.PropertiesToolStripMenuItem.Name = "PropertiesToolStripMenuItem"
-        Me.PropertiesToolStripMenuItem.Size = New System.Drawing.Size(386, 36)
+        Me.PropertiesToolStripMenuItem.Size = New System.Drawing.Size(386, 38)
         Me.PropertiesToolStripMenuItem.Text = "Properties                           "
         '
         'Label2
@@ -105,9 +105,9 @@ Partial Class format_1
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.ContextMenuStrip = Me.ContextMenuStrip1
         Me.Label2.ForeColor = System.Drawing.Color.Transparent
-        Me.Label2.Location = New System.Drawing.Point(968, 316)
+        Me.Label2.Location = New System.Drawing.Point(585, 246)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(343, 163)
+        Me.Label2.Size = New System.Drawing.Size(227, 72)
         Me.Label2.TabIndex = 2
         '
         'Button1
@@ -126,13 +126,13 @@ Partial Class format_1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1974, 1229)
+        Me.ClientSize = New System.Drawing.Size(1174, 829)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label2)
         Me.MaximizeBox = False
-        Me.MaximumSize = New System.Drawing.Size(2000, 1300)
+        Me.MaximumSize = New System.Drawing.Size(1200, 900)
         Me.MinimizeBox = False
-        Me.MinimumSize = New System.Drawing.Size(2000, 1300)
+        Me.MinimumSize = New System.Drawing.Size(1200, 900)
         Me.Name = "format_1"
         Me.Text = "format_1"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized

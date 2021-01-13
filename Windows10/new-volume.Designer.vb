@@ -36,13 +36,16 @@ Partial Class new_volume
         '
         'Label4
         '
+        Me.Label4.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.ContextMenuStrip = Me.ContextMenuStrip1
         Me.Label4.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Label4.ForeColor = System.Drawing.Color.Transparent
-        Me.Label4.Location = New System.Drawing.Point(1230, 626)
+        Me.Label4.Location = New System.Drawing.Point(716, 411)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(228, 157)
+        Me.Label4.Size = New System.Drawing.Size(158, 139)
         Me.Label4.TabIndex = 8
         '
         'ContextMenuStrip1
@@ -50,35 +53,35 @@ Partial Class new_volume
         Me.ContextMenuStrip1.ImageScalingSize = New System.Drawing.Size(32, 32)
         Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripMenuItem1, Me.NewSimpleVolumeToolStripMenuItem, Me.NewSpannedVolumeToolStripMenuItem, Me.NewStripedVolumeToolStripMenuItem, Me.HelpToolStripMenuItem})
         Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
-        Me.ContextMenuStrip1.Size = New System.Drawing.Size(405, 184)
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(405, 194)
         '
         'ToolStripMenuItem1
         '
         Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
-        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(404, 36)
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(404, 38)
         '
         'NewSimpleVolumeToolStripMenuItem
         '
         Me.NewSimpleVolumeToolStripMenuItem.Name = "NewSimpleVolumeToolStripMenuItem"
-        Me.NewSimpleVolumeToolStripMenuItem.Size = New System.Drawing.Size(404, 36)
+        Me.NewSimpleVolumeToolStripMenuItem.Size = New System.Drawing.Size(404, 38)
         Me.NewSimpleVolumeToolStripMenuItem.Text = "New Simple Volume              "
         '
         'NewSpannedVolumeToolStripMenuItem
         '
         Me.NewSpannedVolumeToolStripMenuItem.Name = "NewSpannedVolumeToolStripMenuItem"
-        Me.NewSpannedVolumeToolStripMenuItem.Size = New System.Drawing.Size(404, 36)
+        Me.NewSpannedVolumeToolStripMenuItem.Size = New System.Drawing.Size(404, 38)
         Me.NewSpannedVolumeToolStripMenuItem.Text = "New Spanned Volume"
         '
         'NewStripedVolumeToolStripMenuItem
         '
         Me.NewStripedVolumeToolStripMenuItem.Name = "NewStripedVolumeToolStripMenuItem"
-        Me.NewStripedVolumeToolStripMenuItem.Size = New System.Drawing.Size(404, 36)
+        Me.NewStripedVolumeToolStripMenuItem.Size = New System.Drawing.Size(404, 38)
         Me.NewStripedVolumeToolStripMenuItem.Text = "New Striped Volume"
         '
         'HelpToolStripMenuItem
         '
         Me.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem"
-        Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(404, 36)
+        Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(404, 38)
         Me.HelpToolStripMenuItem.Text = "Help"
         '
         'new_volume
@@ -87,12 +90,12 @@ Partial Class new_volume
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1974, 1229)
+        Me.ClientSize = New System.Drawing.Size(1174, 829)
         Me.Controls.Add(Me.Label4)
         Me.MaximizeBox = False
-        Me.MaximumSize = New System.Drawing.Size(2000, 1300)
+        Me.MaximumSize = New System.Drawing.Size(1200, 900)
         Me.MinimizeBox = False
-        Me.MinimumSize = New System.Drawing.Size(2000, 1300)
+        Me.MinimumSize = New System.Drawing.Size(1200, 900)
         Me.Name = "new_volume"
         Me.Text = "new_volume"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized

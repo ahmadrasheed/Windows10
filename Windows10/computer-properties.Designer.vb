@@ -28,11 +28,12 @@ Partial Class computer_properties
         '
         'Button1
         '
+        Me.Button1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button1.BackColor = System.Drawing.Color.Yellow
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button1.Font = New System.Drawing.Font("Tahoma", 8.0!)
         Me.Button1.ForeColor = System.Drawing.Color.Black
-        Me.Button1.Location = New System.Drawing.Point(1583, 3)
+        Me.Button1.Location = New System.Drawing.Point(789, 32)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(360, 91)
         Me.Button1.TabIndex = 4
@@ -47,8 +48,10 @@ Partial Class computer_properties
         Me.AutoSize = True
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(2235, 1490)
+        Me.ClientSize = New System.Drawing.Size(1174, 829)
         Me.Controls.Add(Me.Button1)
+        Me.MaximumSize = New System.Drawing.Size(1200, 900)
+        Me.MinimumSize = New System.Drawing.Size(1200, 900)
         Me.Name = "computer_properties"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.ResumeLayout(False)

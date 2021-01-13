@@ -29,19 +29,21 @@ Partial Class clean_1
         '
         'TextBox1
         '
-        Me.TextBox1.Font = New System.Drawing.Font("Tahoma", 17.0!)
-        Me.TextBox1.Location = New System.Drawing.Point(81, 1105)
+        Me.TextBox1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.TextBox1.Font = New System.Drawing.Font("Tahoma", 13.0!)
+        Me.TextBox1.Location = New System.Drawing.Point(38, 736)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(278, 62)
+        Me.TextBox1.Size = New System.Drawing.Size(196, 49)
         Me.TextBox1.TabIndex = 0
         '
         'Button1
         '
+        Me.Button1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button1.BackColor = System.Drawing.Color.DodgerBlue
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button1.Font = New System.Drawing.Font("Tahoma", 8.0!)
         Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(1276, 116)
+        Me.Button1.Location = New System.Drawing.Point(706, 100)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(360, 106)
         Me.Button1.TabIndex = 7
@@ -54,13 +56,13 @@ Partial Class clean_1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1974, 1229)
+        Me.ClientSize = New System.Drawing.Size(1174, 829)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.TextBox1)
         Me.MaximizeBox = False
-        Me.MaximumSize = New System.Drawing.Size(2000, 1300)
+        Me.MaximumSize = New System.Drawing.Size(1200, 900)
         Me.MinimizeBox = False
-        Me.MinimumSize = New System.Drawing.Size(2000, 1300)
+        Me.MinimumSize = New System.Drawing.Size(1200, 900)
         Me.Name = "clean_1"
         Me.Text = "clean_1"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized

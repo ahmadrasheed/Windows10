@@ -39,18 +39,19 @@ Partial Class update_1
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Label2.ForeColor = System.Drawing.Color.Transparent
-        Me.Label2.Location = New System.Drawing.Point(-15, 1026)
+        Me.Label2.Location = New System.Drawing.Point(0, 695)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(135, 113)
+        Me.Label2.Size = New System.Drawing.Size(86, 76)
         Me.Label2.TabIndex = 2
         '
         'Button1
         '
+        Me.Button1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button1.BackColor = System.Drawing.Color.Yellow
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button1.Font = New System.Drawing.Font("Tahoma", 8.0!)
         Me.Button1.ForeColor = System.Drawing.Color.Black
-        Me.Button1.Location = New System.Drawing.Point(1568, 12)
+        Me.Button1.Location = New System.Drawing.Point(802, 12)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(360, 91)
         Me.Button1.TabIndex = 3
@@ -64,7 +65,7 @@ Partial Class update_1
         Me.Label1.ContextMenuStrip = Me.ContextMenuStrip1
         Me.Label1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Label1.ForeColor = System.Drawing.Color.Transparent
-        Me.Label1.Location = New System.Drawing.Point(12, 1152)
+        Me.Label1.Location = New System.Drawing.Point(12, 752)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(74, 68)
         Me.Label1.TabIndex = 4
@@ -76,24 +77,24 @@ Partial Class update_1
         Me.ContextMenuStrip1.ImageScalingSize = New System.Drawing.Size(32, 32)
         Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SleepToolStripMenuItem, Me.RestartToolStripMenuItem, Me.PowerToolStripMenuItem})
         Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
-        Me.ContextMenuStrip1.Size = New System.Drawing.Size(443, 154)
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(443, 160)
         '
         'SleepToolStripMenuItem
         '
         Me.SleepToolStripMenuItem.Name = "SleepToolStripMenuItem"
-        Me.SleepToolStripMenuItem.Size = New System.Drawing.Size(442, 50)
+        Me.SleepToolStripMenuItem.Size = New System.Drawing.Size(442, 52)
         Me.SleepToolStripMenuItem.Text = "Sleep                             "
         '
         'RestartToolStripMenuItem
         '
         Me.RestartToolStripMenuItem.Name = "RestartToolStripMenuItem"
-        Me.RestartToolStripMenuItem.Size = New System.Drawing.Size(442, 50)
+        Me.RestartToolStripMenuItem.Size = New System.Drawing.Size(442, 52)
         Me.RestartToolStripMenuItem.Text = "Restart "
         '
         'PowerToolStripMenuItem
         '
         Me.PowerToolStripMenuItem.Name = "PowerToolStripMenuItem"
-        Me.PowerToolStripMenuItem.Size = New System.Drawing.Size(442, 50)
+        Me.PowerToolStripMenuItem.Size = New System.Drawing.Size(442, 52)
         Me.PowerToolStripMenuItem.Text = "Shutdown"
         '
         'update_1
@@ -102,14 +103,14 @@ Partial Class update_1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1974, 1229)
+        Me.ClientSize = New System.Drawing.Size(1174, 829)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label2)
         Me.MaximizeBox = False
-        Me.MaximumSize = New System.Drawing.Size(2000, 1300)
+        Me.MaximumSize = New System.Drawing.Size(1200, 900)
         Me.MinimizeBox = False
-        Me.MinimumSize = New System.Drawing.Size(2000, 1300)
+        Me.MinimumSize = New System.Drawing.Size(1200, 900)
         Me.Name = "update_1"
         Me.Text = "update_1"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized

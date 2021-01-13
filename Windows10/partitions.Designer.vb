@@ -39,9 +39,9 @@ Partial Class partitions
         Me.Label4.ContextMenuStrip = Me.ContextMenuStrip1
         Me.Label4.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Label4.ForeColor = System.Drawing.Color.Transparent
-        Me.Label4.Location = New System.Drawing.Point(1228, 621)
+        Me.Label4.Location = New System.Drawing.Point(722, 420)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(231, 169)
+        Me.Label4.Size = New System.Drawing.Size(144, 98)
         Me.Label4.TabIndex = 6
         '
         'ContextMenuStrip1
@@ -49,30 +49,30 @@ Partial Class partitions
         Me.ContextMenuStrip1.ImageScalingSize = New System.Drawing.Size(32, 32)
         Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.OpenToolStripMenuItem, Me.ChangeDriveLetterAndPathesToolStripMenuItem, Me.FormatToolStripMenuItem, Me.DeleteVolumesToolStripMenuItem})
         Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
-        Me.ContextMenuStrip1.Size = New System.Drawing.Size(434, 148)
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(434, 156)
         '
         'OpenToolStripMenuItem
         '
         Me.OpenToolStripMenuItem.Name = "OpenToolStripMenuItem"
-        Me.OpenToolStripMenuItem.Size = New System.Drawing.Size(433, 36)
+        Me.OpenToolStripMenuItem.Size = New System.Drawing.Size(433, 38)
         Me.OpenToolStripMenuItem.Text = "Open"
         '
         'ChangeDriveLetterAndPathesToolStripMenuItem
         '
         Me.ChangeDriveLetterAndPathesToolStripMenuItem.Name = "ChangeDriveLetterAndPathesToolStripMenuItem"
-        Me.ChangeDriveLetterAndPathesToolStripMenuItem.Size = New System.Drawing.Size(433, 36)
+        Me.ChangeDriveLetterAndPathesToolStripMenuItem.Size = New System.Drawing.Size(433, 38)
         Me.ChangeDriveLetterAndPathesToolStripMenuItem.Text = "Change Drive letter and pathes.."
         '
         'FormatToolStripMenuItem
         '
         Me.FormatToolStripMenuItem.Name = "FormatToolStripMenuItem"
-        Me.FormatToolStripMenuItem.Size = New System.Drawing.Size(433, 36)
+        Me.FormatToolStripMenuItem.Size = New System.Drawing.Size(433, 38)
         Me.FormatToolStripMenuItem.Text = "Format"
         '
         'DeleteVolumesToolStripMenuItem
         '
         Me.DeleteVolumesToolStripMenuItem.Name = "DeleteVolumesToolStripMenuItem"
-        Me.DeleteVolumesToolStripMenuItem.Size = New System.Drawing.Size(433, 36)
+        Me.DeleteVolumesToolStripMenuItem.Size = New System.Drawing.Size(433, 38)
         Me.DeleteVolumesToolStripMenuItem.Text = "Delete Volumes ..."
         '
         'partitions
@@ -81,12 +81,12 @@ Partial Class partitions
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1974, 1229)
+        Me.ClientSize = New System.Drawing.Size(1174, 829)
         Me.Controls.Add(Me.Label4)
         Me.MaximizeBox = False
-        Me.MaximumSize = New System.Drawing.Size(2000, 1300)
+        Me.MaximumSize = New System.Drawing.Size(1200, 900)
         Me.MinimizeBox = False
-        Me.MinimumSize = New System.Drawing.Size(2000, 1300)
+        Me.MinimumSize = New System.Drawing.Size(1200, 900)
         Me.Name = "partitions"
         Me.Text = "partitions"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized

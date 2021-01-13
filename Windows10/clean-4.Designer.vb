@@ -31,18 +31,19 @@ Partial Class clean_4
         Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Label4.ForeColor = System.Drawing.Color.Transparent
-        Me.Label4.Location = New System.Drawing.Point(785, 610)
+        Me.Label4.Location = New System.Drawing.Point(468, 312)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(364, 40)
+        Me.Label4.Size = New System.Drawing.Size(333, 40)
         Me.Label4.TabIndex = 5
         '
         'Button1
         '
+        Me.Button1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button1.BackColor = System.Drawing.Color.DodgerBlue
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button1.Font = New System.Drawing.Font("Tahoma", 8.0!)
         Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(1521, 157)
+        Me.Button1.Location = New System.Drawing.Point(712, 43)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(360, 106)
         Me.Button1.TabIndex = 6
@@ -55,13 +56,13 @@ Partial Class clean_4
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.Windows10.My.Resources.Resources.cleanup_4
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1974, 1229)
+        Me.ClientSize = New System.Drawing.Size(1174, 829)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label4)
         Me.MaximizeBox = False
-        Me.MaximumSize = New System.Drawing.Size(2000, 1300)
+        Me.MaximumSize = New System.Drawing.Size(1200, 900)
         Me.MinimizeBox = False
-        Me.MinimumSize = New System.Drawing.Size(2000, 1300)
+        Me.MinimumSize = New System.Drawing.Size(1200, 900)
         Me.Name = "clean_4"
         Me.Text = "clean_4"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
